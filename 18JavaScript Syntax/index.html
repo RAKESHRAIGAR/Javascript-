@@ -7,13 +7,17 @@
     <title>Document</title>
   </head>
   <body>
+    <h1>JavaScript Synax</h1>
+    <button type="button" onclick="myFunction()">Click Here</button>
+    <p id="yes"></p>
     <script>
-      var x;
-      let y;
+      let x, y;
       x = 5;
       y = 6;
       let z = x + y;
-      alert(z);
+      function myFunction() {
+        document.getElementById("yes").innerHTML = z;
+      }
 
       // JavaScript Values two typw of value in which
       // 1 fixed value in which number and string
