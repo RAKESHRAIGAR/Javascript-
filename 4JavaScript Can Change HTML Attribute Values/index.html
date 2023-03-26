@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>JavaScript Can Change HTML Attribute Values</title>
+    <link rel="stylesheet" href="index.css" />
+    <link rel="stylesheet" href="index.js" />
+  </head>
+  <body>
+    <header>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet,
+        fugiat.
+      </p>
+    </header>
+    <main>
+      <button
+        onclick="document.getElementById('myImage').src='image/pic_bulbon.gif'"
+      >
+        Turn on the light
+      </button>
+      <img
+        id="myImage"
+        src="image/pic_bulboff.gif"
+        alt=""
+        style="width: 100px"
+      />
+      <button
+        onclick="document.getElementById('myImage').src='image/pic_bulboff.gif'"
+      >
+        Turn off the light
+      </button>
+    </main>
+    <br />
+    <footer>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae, incidunt?
+    </footer>
+  </body>
+</html>
