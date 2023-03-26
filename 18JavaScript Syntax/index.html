@@ -11,17 +11,48 @@
     <button type="button" onclick="myFunction()">Click Here</button>
     <p id="yes"></p>
     <script>
-      let x, y;
-      x = 5;
-      y = 6;
-      let z = x + y;
-      function myFunction() {
-        document.getElementById("yes").innerHTML = z;
-      }
+       let x; // here we can write also let x, y; or var x, y;
+       var y;
+       x = 5;
+       y = 6;
+       let z = x + y;
+       function myFunction() {
+         document.getElementById("yes").innerHTML = z; //NOTE HERE WE CAN PUT THE DIRACTILLY VALUE X + Y ALSO GIVE THE SAME OUTPUT.
+       }
 
-      // JavaScript Values two typw of value in which
-      // 1 fixed value in which number and string
-      // and second is variable value JavaScript uses the keywords var, let and const to declare variables
+       //JavaScript Expressions:-
+       /*1. 5 * 10 evaluates to 50
+       2.Expressions can also contain variable values :=
+       x = 5;
+       document.getElementById("demo").innerHTML = x * 10;
+
+       <p id="demo"></p>
+      document.getElementById("demo").innerHTML = "John" + " "  + "Doe";
+      o/p=John Doe
+
+
+      JavaScript Keywords=
+      1.The let keyword tells the browser to create variables/The var keyword also tells the browser to create variables::
+       example= <h2>The <b>let</b> Keyword Creates Variables</h2>
+       <script>
+         let x, y;
+         x = 5 + 6;
+         y = x * 10;
+         document.getElementById("demo").innerHTML = y;
+         <p id="demo"></p>
+            o/p=The let Keyword Creates Variables
+            110
+
+            JavaScript Identifiers / Names
+            A JavaScript name must begin with:
+
+            A dollar sign ($)
+            Or an underscore (_)
+            A letter (A-Z or a-z)
+
+            // JavaScript Values two typw of value in which
+            // 1 fixed value in which number and string
+            // and second is variable value JavaScript uses the keywords var, let and const to declare variables
     </script>
   </body>
 </html>
