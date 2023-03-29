@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>JavaScript Variables</h1>
+
+    <p>If you re-declare a JavaScript variable, it will not lose its value.</p>
+
+    <p id="demo"></p>
+    <script>
+      var tailWind = "shiv";
+      var tailWind;
+      document.getElementById("demo").innerHTML = tailWind;
+
+      // note:- it will happen only with the var variable another did not support
+      /*As with algebra, you can do arithmetic with JavaScript variables, using operators like = and +:
+      let x = 5 + 2 + 3;
+      O/P IS =10
+      You can also add strings, but strings will be concatenated:
+      let x = "John" + " " + "Doe";
+      O/P IS =John Doe
+
+      let x = "5" + 2 + 3;
+      The result of adding "5" + 2 + 3 is:
+      523
+      note:-If you put a number in quotes, the rest of the numbers will be treated as strings, and concatenated.
+
+      let x = 2 + 3 + "5";
+      The result of adding 2 + 3 + "5" is:
+      55
+
+      JavaScript Dollar Sign $
+      let $ = "Hello World";
+      let $myMoney = 5;
+      let $$$ = 2;
+      Since JavaScript treats a dollar sign as a letter, identifiers containing $ are valid variable names:
+      In the JavaScript library jQuery, for instance, the main function $ is used to select HTML elements. In jQuery $("p"); means "select all p elements".
+
+      JavaScript Underscore (_):-
+      Since JavaScript treats underscore as a letter, identifiers containing _ are valid variable names:
+      let _x = 2;
+      let _100 = 5;
+      O/P IS = 7
+
+
+      */
+    </script>
+  </body>
+</html>
